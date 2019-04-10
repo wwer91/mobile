@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro</title>
+    
+    <!-- css -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/reset.css" rel="stylesheet">
+
+    <!--webfont-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900" rel="stylesheet">
+
+</head>
+<body>
+	<section id="register">
+		<div class="container">
+			<div class="top">
+				<h1>
+					<img src="assets/img/image@2.png" alt="letfit 로고">
+					<em>LETFIT</em>
+				</h1>
+				<ul>
+					<li class="sign">Get started for free</li>
+					<li>Free forever No credit card needed</li>
+				</ul>
+			</div>
+
+			<div class="middle">
+				<div class="box active">
+					<div class="icon"><a href="#"><img src="assets/img/icon_admin.png" srcset="assets/img/icon_admin@2x.png" alt="administrator"></a></div>
+					<h3>Administrator</h3>
+					<p>Full access to all<br>settings</p>
+				</div>
+				<div class="box">
+					<div class="icon2"><a href="#"><img src="assets/img/icon_oper.png" srcset="assets/img/icon_oper@2x.png" alt="operator"></a></div>
+					<h3>Operator</h3>
+					<p>Service desk and<br>chat permissions</p>
+				</div>
+			</div>
+			<div class="in">
+				<div class="name">
+					<label for="name">FULL NAME</label>
+		        	<input id="name" type="text" placeholder="Bak jongseong" title="이메일" class="input_style1">
+				</div>
+				<div class="email">
+					<label for="email">EMAIL ADDRESS</label>
+		        	<input id="email" type="text" placeholder="park914243mbc@gmail.com" title="이메일" class="input_style1">
+				</div>
+				<div class="pw">
+					<label for="pw">PASSWORD</label>
+		        	<input id="pw" type="PASSWORD" maxlength="20"  placeholder="********" title="비밀번호" class="input_style1">
+				</div>
+				<div class="btn">
+					<button type="button" title="로그인"><em>Sign in</em></button>
+					<p>Already have an account?<strong>Sign In</strong></p>
+				</div>
+			</div>
+		</div>
+	</section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+    	$(".box").click(function(){
+    		$(this).toggleClass("active");
+    	});
+    </script>
+</body>
+</html>

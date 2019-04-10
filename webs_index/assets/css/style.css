@@ -1,0 +1,814 @@
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #2e384d; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #2e384d; }
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #2e384d; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #2e384d; }
+
+#login .container {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+  box-sizing: border-box; }
+  #login .container .top h1 {
+    width: 110px;
+    padding-top: 50px;
+    margin: 0 auto; }
+    #login .container .top h1 img {
+      width: 100%; }
+    #login .container .top h1 em {
+      display: block;
+      padding-left: 27px;
+      font-family: 'Roboto', sans-serif-medium;
+      font-size: 18px;
+      color: #8786ad; }
+  #login .container .top ul {
+    text-align: center;
+    padding-top: 53px; }
+    #login .container .top ul li.sign {
+      font-family: 'Roboto', sans-serif;
+      font-size: 28px;
+      color: #707070; }
+    #login .container .top ul li {
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      color: #8786ad; }
+  #login .container .in {
+    box-sizing: border-box;
+    padding-top: 71px; }
+    #login .container .in div.email label {
+      display: block;
+      font-family: 'Roboto', sans-serif-medium;
+      font-size: 12px;
+      color: #8786ad;
+      padding-bottom: 12px; }
+    #login .container .in div.email input {
+      box-sizing: border-box;
+      width: 100%;
+      height: 43px;
+      border-radius: 4px;
+      border: 1px solid #e0e7ff;
+      padding-left: 18px;
+      background-color: rgba(224, 231, 255, 0.2); }
+    #login .container .in div.pw {
+      padding-top: 20px; }
+      #login .container .in div.pw label {
+        display: block;
+        font-family: 'Roboto', sans-serif-medium;
+        font-size: 12px;
+        color: #8786ad;
+        padding-bottom: 12px; }
+        #login .container .in div.pw label em {
+          float: right;
+          color: #b0bac9; }
+      #login .container .in div.pw input {
+        box-sizing: border-box;
+        width: 100%;
+        height: 43px;
+        border-radius: 4px;
+        border: 1px solid #e0e7ff;
+        padding-left: 18px;
+        background-color: rgba(224, 231, 255, 0.2); }
+    #login .container .in div.btn {
+      padding: 25px 0 75px 0; }
+      #login .container .in div.btn button {
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #2e5bff; }
+        #login .container .in div.btn button em {
+          font-size: 24px;
+          color: #ffffff; }
+      #login .container .in div.btn p {
+        padding-top: 3px;
+        text-align: center;
+        font-size: 15px;
+        color: #a8a8a8; }
+        #login .container .in div.btn p strong {
+          color: #4f4be4; }
+
+#register .container {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+  box-sizing: border-box; }
+  #register .container .top h1 {
+    padding: 90px 30px;
+    width: 150px;
+    margin: 0 auto; }
+    #register .container .top h1 img {
+      width: 40px;
+      margin-right: 10px; }
+    #register .container .top h1 em {
+      font-family: 'Roboto', sans-serif-medium;
+      font-size: 400px;
+      color: #8786ad;
+      vertical-align: 6px; }
+  #register .container .top ul {
+    text-align: center; }
+    #register .container .top ul li.sign {
+      font-family: 'Roboto', sans-serif;
+      font-size: 28px;
+      color: #707070; }
+    #register .container .top ul li {
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      color: #8786ad; }
+  #register .container .middle {
+    overflow: hidden;
+    padding: 58px 0 38px 0; }
+    #register .container .middle .box {
+      position: relative;
+      float: left;
+      width: 47.5%;
+      margin-right: 3%;
+      border-radius: 5px;
+      border: solid 1px #e0e7ff;
+      box-sizing: border-box;
+      text-align: center;
+      padding: 24px 12px; }
+      #register .container .middle .box .icon {
+        display: block;
+        margin: 0 auto;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background-color: #e0e7ff; }
+        #register .container .middle .box .icon a img {
+          padding-top: 12px;
+          display: block;
+          margin: 0 auto;
+          width: 16px; }
+      #register .container .middle .box .icon2 {
+        display: block;
+        margin: 0 auto;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background-color: #e0e7ff; }
+        #register .container .middle .box .icon2 a img {
+          padding-top: 15px;
+          display: block;
+          margin: 0 auto;
+          width: 21px; }
+      #register .container .middle .box h3 {
+        padding: 15px 0 10px 0;
+        font-size: 16px;
+        font-weight: 700;
+        color: #2e384d; }
+      #register .container .middle .box p {
+        color: #8798ad;
+        font-size: 15px; }
+    #register .container .middle .box.active {
+      border: solid 1px #4465d8; }
+    #register .container .middle .box.active:before {
+      content: '';
+      background: url(../img/icon_check@2x.png) no-repeat;
+      background-size: 18px;
+      position: absolute;
+      right: -9px;
+      top: -9px;
+      width: 18px;
+      height: 18px; }
+    #register .container .middle .box:last-child {
+      margin-right: 0; }
+  #register .container .in {
+    box-sizing: border-box; }
+    #register .container .in div.name label {
+      display: block;
+      font-family: 'Roboto', sans-serif-medium;
+      font-size: 12px;
+      color: #8786ad;
+      padding-bottom: 12px; }
+    #register .container .in div.name input {
+      box-sizing: border-box;
+      width: 100%;
+      height: 43px;
+      border-radius: 4px;
+      border: 1px solid #e0e7ff;
+      padding-left: 18px;
+      background-color: rgba(224, 231, 255, 0.2); }
+    #register .container .in div.email {
+      padding-top: 20px; }
+      #register .container .in div.email label {
+        display: block;
+        font-family: 'Roboto', sans-serif-medium;
+        font-size: 12px;
+        color: #8786ad;
+        padding-bottom: 12px; }
+      #register .container .in div.email input {
+        box-sizing: border-box;
+        width: 100%;
+        height: 43px;
+        border-radius: 4px;
+        border: 1px solid #e0e7ff;
+        padding-left: 18px;
+        background-color: rgba(224, 231, 255, 0.2); }
+    #register .container .in div.pw {
+      padding-top: 20px; }
+      #register .container .in div.pw label {
+        display: block;
+        font-family: 'Roboto', sans-serif-medium;
+        font-size: 12px;
+        color: #8786ad;
+        padding-bottom: 12px; }
+      #register .container .in div.pw input {
+        box-sizing: border-box;
+        width: 100%;
+        height: 43px;
+        border-radius: 4px;
+        border: 1px solid #e0e7ff;
+        padding-left: 18px;
+        background-color: rgba(224, 231, 255, 0.2); }
+    #register .container .in div.btn {
+      padding: 25px 0 75px 0; }
+      #register .container .in div.btn button {
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #2e5bff; }
+        #register .container .in div.btn button em {
+          font-size: 24px;
+          color: #ffffff; }
+      #register .container .in div.btn p {
+        padding-top: 3px;
+        text-align: center;
+        font-size: 15px;
+        color: #a8a8a8; }
+        #register .container .in div.btn p strong {
+          color: #4f4be4; }
+
+#header .container {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+  box-sizing: border-box; }
+  #header .container .header {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    padding: 20px 0; }
+    #header .container .header .hd_tit {
+      text-align: center;
+      font-size: 15px;
+      font-family: "Rubik";
+      font-weight: 500; }
+    #header .container .header .hd_left {
+      position: absolute;
+      left: 24px;
+      top: 23px; }
+      #header .container .header .hd_left a img {
+        width: 19px; }
+    #header .container .header .hd_right {
+      position: absolute;
+      right: 24px;
+      top: 22px; }
+      #header .container .header .hd_right a img {
+        width: 19px; }
+
+#personal .container {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+  box-sizing: border-box; }
+  #personal .container .personal .subtitle {
+    padding: 29px 0 16px 24px;
+    background-color: #f4f6fc;
+    font-size: 13px;
+    color: #8798ad;
+    font-family: "Rubik"; }
+  #personal .container .personal .info {
+    font-size: 15px;
+    color: #2e384d;
+    padding: 34px 0 30px 24px;
+    font-family: "Rubik"; }
+  #personal .container .personal .data {
+    padding: 0px 24px 14px 24px;
+    box-sizing: border-box; }
+    #personal .container .personal .data div.email label {
+      display: block;
+      font-family: 'Rubik';
+      font-weight: 500;
+      font-size: 12px;
+      color: #8786ad;
+      padding-bottom: 12px; }
+    #personal .container .personal .data div.email input {
+      box-sizing: border-box;
+      width: 100%;
+      height: 43px;
+      border-radius: 4px;
+      border: 1px solid #e0e7ff;
+      padding-left: 18px;
+      background-color: rgba(224, 231, 255, 0.2);
+      font-family: 'Rubik'; }
+    #personal .container .personal .data div.f_name {
+      padding-top: 20px; }
+      #personal .container .personal .data div.f_name label {
+        display: block;
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 12px;
+        color: #8786ad;
+        padding-bottom: 12px; }
+      #personal .container .personal .data div.f_name input {
+        box-sizing: border-box;
+        width: 100%;
+        height: 43px;
+        border-radius: 4px;
+        border: 1px solid #e0e7ff;
+        padding-left: 18px;
+        background-color: rgba(224, 231, 255, 0.2);
+        font-family: 'Rubik'; }
+    #personal .container .personal .data div.l_name {
+      padding-top: 20px; }
+      #personal .container .personal .data div.l_name label {
+        display: block;
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 12px;
+        color: #8786ad;
+        padding-bottom: 12px; }
+      #personal .container .personal .data div.l_name input {
+        box-sizing: border-box;
+        width: 100%;
+        height: 43px;
+        border-radius: 4px;
+        border: 1px solid #e0e7ff;
+        padding-left: 18px;
+        background-color: rgba(224, 231, 255, 0.2);
+        font-family: 'Rubik'; }
+    #personal .container .personal .data div.date {
+      padding-top: 20px; }
+      #personal .container .personal .data div.date label {
+        display: block;
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 12px;
+        color: #8786ad;
+        padding-bottom: 12px; }
+      #personal .container .personal .data div.date input {
+        box-sizing: border-box;
+        width: 100%;
+        height: 43px;
+        border-radius: 4px;
+        border: 1px solid #e0e7ff;
+        padding-left: 18px;
+        background-color: rgba(224, 231, 255, 0.2);
+        font-family: 'Rubik'; }
+    #personal .container .personal .data div.pw {
+      padding-top: 20px; }
+      #personal .container .personal .data div.pw label {
+        display: block;
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 12px;
+        color: #8786ad;
+        padding-bottom: 12px; }
+      #personal .container .personal .data div.pw input {
+        box-sizing: border-box;
+        width: 100%;
+        height: 43px;
+        border-radius: 4px;
+        border: 1px solid #e0e7ff;
+        padding-left: 18px;
+        background-color: rgba(224, 231, 255, 0.2);
+        font-family: 'Rubik'; }
+    #personal .container .personal .data div.new_pw {
+      padding-top: 20px; }
+      #personal .container .personal .data div.new_pw label {
+        display: block;
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 12px;
+        color: #8786ad;
+        padding-bottom: 12px; }
+      #personal .container .personal .data div.new_pw input {
+        box-sizing: border-box;
+        width: 100%;
+        height: 43px;
+        border-radius: 4px;
+        border: 1px solid #e0e7ff;
+        padding-left: 18px;
+        background-color: rgba(224, 231, 255, 0.2);
+        font-family: 'Rubik'; }
+    #personal .container .personal .data div.confirm {
+      padding-top: 20px; }
+      #personal .container .personal .data div.confirm label {
+        display: block;
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 12px;
+        color: #8786ad;
+        padding-bottom: 12px; }
+      #personal .container .personal .data div.confirm input {
+        box-sizing: border-box;
+        width: 100%;
+        height: 43px;
+        border-radius: 4px;
+        border: 1px solid #e0e7ff;
+        padding-left: 18px;
+        background-color: rgba(224, 231, 255, 0.2);
+        font-family: 'Rubik'; }
+    #personal .container .personal .data div.save_btn {
+      padding-top: 25px; }
+      #personal .container .personal .data div.save_btn button {
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #2e5bff; }
+        #personal .container .personal .data div.save_btn button em {
+          font-size: 24px;
+          color: #ffffff; }
+
+#integrations {
+  padding-top: 36px; }
+  #integrations .container {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 24px;
+    box-sizing: border-box; }
+    #integrations .container .subtitle {
+      padding: 29px 0 16px 24px;
+      background-color: #f4f6fc;
+      font-size: 13px;
+      color: #8798ad;
+      font-family: "Rubik"; }
+    #integrations .container .info {
+      font-size: 15px;
+      color: #2e384d;
+      padding: 34px 0 30px 24px;
+      font-family: "Rubik"; }
+    #integrations .container .int_box_wrap {
+      padding: 0 24px; }
+      #integrations .container .int_box_wrap .int_box {
+        position: relative;
+        width: 100%;
+        height: 108px;
+        margin-bottom: 17px;
+        border: 1px solid #e0e7ff;
+        border-radius: 5px;
+        z-index: 1; }
+        #integrations .container .int_box_wrap .int_box h3 {
+          margin: 20px;
+          position: relative;
+          float: left;
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+          background-color: rgba(128, 151, 177, 0.1); }
+          #integrations .container .int_box_wrap .int_box h3 a {
+            position: absolute;
+            top: 17px;
+            left: 17px;
+            width: 40px; }
+        #integrations .container .int_box_wrap .int_box ul {
+          float: left;
+          margin: 34px 0; }
+          #integrations .container .int_box_wrap .int_box ul li.bold {
+            font-family: "Rubik";
+            font-size: 15px;
+            font-weight: 500;
+            color: #2e384d; }
+          #integrations .container .int_box_wrap .int_box ul li {
+            font-family: "Rubik";
+            font-size: 15px;
+            color: #8798ad; }
+      #integrations .container .int_box_wrap .int_box.active {
+        border: solid 1px #4465d8; }
+      #integrations .container .int_box_wrap .int_box.active:before {
+        content: '';
+        background: url(../img/icon_check@2x.png) no-repeat;
+        background-size: 18px;
+        position: absolute;
+        right: -9px;
+        top: -9px;
+        width: 18px;
+        height: 18px; }
+
+#notification {
+  margin-top: 50px; }
+  #notification .container {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 24px;
+    box-sizing: border-box; }
+    #notification .container .notification .subtitle {
+      padding: 29px 0 16px 24px;
+      background-color: #f4f6fc;
+      font-size: 13px;
+      color: #8798ad;
+      font-family: "Rubik"; }
+    #notification .container .notification .info {
+      font-size: 15px;
+      color: #2e384d;
+      padding: 34px 0 30px 24px;
+      font-family: "Rubik"; }
+    #notification .container .notification div.nt_wrap {
+      overflow: hidden;
+      padding: 0 24px;
+      margin-bottom: 20px; }
+      #notification .container .notification div.nt_wrap ul {
+        float: left; }
+        #notification .container .notification div.nt_wrap ul li.bold {
+          font-family: "Rubik";
+          font-size: 15px;
+          font-weight: 500;
+          color: #2e384d; }
+        #notification .container .notification div.nt_wrap ul li {
+          font-family: "Rubik";
+          font-size: 15px;
+          color: #8798ad; }
+      #notification .container .notification div.nt_wrap .slide_btn {
+        position: relative;
+        float: right;
+        width: 36px;
+        height: 20px;
+        margin-top: 10px;
+        border-radius: 40px;
+        opacity: 0.4;
+        background-color: #8798ad;
+        transition: all 0.3s ease; }
+      #notification .container .notification div.nt_wrap .slide_btn:before {
+        content: '';
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        width: 16px;
+        height: 16px;
+        background-color: #fff;
+        border-radius: 50%;
+        transition: all 0.3s ease; }
+      #notification .container .notification div.nt_wrap .slide_btn.active {
+        opacity: 1;
+        background-color: #33ac2e; }
+      #notification .container .notification div.nt_wrap .slide_btn.active:before {
+        left: 18px; }
+
+#theme {
+  margin-top: 50px; }
+  #theme .container {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 24px;
+    box-sizing: border-box; }
+    #theme .container .theme .subtitle {
+      padding: 29px 0 16px 24px;
+      background-color: #f4f6fc;
+      font-size: 13px;
+      color: #8798ad;
+      font-family: "Rubik"; }
+    #theme .container .theme .info {
+      font-size: 15px;
+      color: #2e384d;
+      padding: 34px 0 30px 24px;
+      font-family: "Rubik"; }
+    #theme .container .theme .theme_wrap {
+      padding: 0 24px 0 24px; }
+      #theme .container .theme .theme_wrap .theme_1 {
+        float: left;
+        padding-right: 18px;
+        padding-bottom: 25px; }
+        #theme .container .theme .theme_wrap .theme_1 .color1 {
+          overflow: hidden;
+          position: relative;
+          background-color: #e0e7ff;
+          width: 150px;
+          height: 65px;
+          border-radius: 5px; }
+        #theme .container .theme .theme_wrap .theme_1 .color1:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 50px;
+          height: 65px;
+          background-color: #2e5bff; }
+        #theme .container .theme .theme_wrap .theme_1 .color1:after {
+          content: '';
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 50px;
+          height: 65px;
+          background-color: #8097b1; }
+        #theme .container .theme .theme_wrap .theme_1 .theme_btn {
+          margin-top: 13px; }
+          #theme .container .theme .theme_wrap .theme_1 .theme_btn ul li.dots_btn {
+            font-size: 15px;
+            font-family: "Rubik";
+            font-weight: 500; }
+          #theme .container .theme .theme_wrap .theme_1 .theme_btn ul li.dots_btn:before {
+            content: '';
+            display: inline-block;
+            box-sizing: border-box;
+            width: 16px;
+            height: 16px;
+            border: 1px solid #e0e7ff;
+            border-radius: 50%;
+            margin-right: 10px;
+            vertical-align: middle; }
+          #theme .container .theme .theme_wrap .theme_1 .theme_btn ul li.dots_btn.active:before {
+            box-sizing: border-box;
+            border: 4px solid #2e5bff; }
+      #theme .container .theme .theme_wrap .theme_2 {
+        float: left;
+        padding-right: 18px;
+        padding-bottom: 25px; }
+        #theme .container .theme .theme_wrap .theme_2 .color2 {
+          overflow: hidden;
+          position: relative;
+          background-color: #00c1d4;
+          width: 150px;
+          height: 65px;
+          border-radius: 5px; }
+        #theme .container .theme .theme_wrap .theme_2 .color2:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 50px;
+          height: 65px;
+          background-color: #8c54ff; }
+        #theme .container .theme .theme_wrap .theme_2 .color2:after {
+          content: '';
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 50px;
+          height: 65px;
+          background-color: #fad050; }
+        #theme .container .theme .theme_wrap .theme_2 .theme_btn {
+          margin-top: 13px; }
+          #theme .container .theme .theme_wrap .theme_2 .theme_btn ul li.dots_btn {
+            font-size: 15px;
+            font-family: "Rubik";
+            font-weight: 500; }
+          #theme .container .theme .theme_wrap .theme_2 .theme_btn ul li.dots_btn:before {
+            content: '';
+            display: inline-block;
+            box-sizing: border-box;
+            width: 16px;
+            height: 16px;
+            border: 1px solid #e0e7ff;
+            border-radius: 50%;
+            margin-right: 10px;
+            vertical-align: middle; }
+          #theme .container .theme .theme_wrap .theme_2 .theme_btn ul li.dots_btn.active:before {
+            box-sizing: border-box;
+            border: 4px solid #2e5bff; }
+      #theme .container .theme .theme_wrap .theme_3 {
+        float: left;
+        padding-right: 18px;
+        padding-bottom: 25px; }
+        #theme .container .theme .theme_wrap .theme_3 .color3 {
+          overflow: hidden;
+          position: relative;
+          background-color: #3b7ed5;
+          width: 150px;
+          height: 65px;
+          border-radius: 5px; }
+        #theme .container .theme .theme_wrap .theme_3 .color3:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 50px;
+          height: 65px;
+          background-color: #00a4de; }
+        #theme .container .theme .theme_wrap .theme_3 .color3:after {
+          content: '';
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 50px;
+          height: 65px;
+          background-color: #00a550; }
+        #theme .container .theme .theme_wrap .theme_3 .theme_btn {
+          margin-top: 13px; }
+          #theme .container .theme .theme_wrap .theme_3 .theme_btn ul li.dots_btn {
+            font-size: 15px;
+            font-family: "Rubik";
+            font-weight: 500; }
+          #theme .container .theme .theme_wrap .theme_3 .theme_btn ul li.dots_btn:before {
+            content: '';
+            display: inline-block;
+            box-sizing: border-box;
+            width: 16px;
+            height: 16px;
+            border: 1px solid #e0e7ff;
+            border-radius: 50%;
+            margin-right: 10px;
+            vertical-align: middle; }
+          #theme .container .theme .theme_wrap .theme_3 .theme_btn ul li.dots_btn.active:before {
+            box-sizing: border-box;
+            border: 4px solid #2e5bff; }
+      #theme .container .theme .theme_wrap .theme_4 {
+        float: left;
+        padding-right: 18px;
+        padding-bottom: 25px; }
+        #theme .container .theme .theme_wrap .theme_4 .color4 {
+          overflow: hidden;
+          position: relative;
+          background-color: #85c800;
+          width: 150px;
+          height: 65px;
+          border-radius: 5px; }
+        #theme .container .theme .theme_wrap .theme_4 .color4:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 50px;
+          height: 65px;
+          background-color: #232a64; }
+        #theme .container .theme .theme_wrap .theme_4 .color4:after {
+          content: '';
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 50px;
+          height: 65px;
+          background-color: #616266; }
+        #theme .container .theme .theme_wrap .theme_4 .theme_btn {
+          margin-top: 13px; }
+          #theme .container .theme .theme_wrap .theme_4 .theme_btn ul li.dots_btn {
+            font-size: 15px;
+            font-family: "Rubik";
+            font-weight: 500; }
+          #theme .container .theme .theme_wrap .theme_4 .theme_btn ul li.dots_btn:before {
+            content: '';
+            display: inline-block;
+            box-sizing: border-box;
+            width: 16px;
+            height: 16px;
+            border: 1px solid #e0e7ff;
+            border-radius: 50%;
+            margin-right: 10px;
+            vertical-align: middle; }
+          #theme .container .theme .theme_wrap .theme_4 .theme_btn ul li.dots_btn.active:before {
+            box-sizing: border-box;
+            border: 4px solid #2e5bff; }
+      #theme .container .theme .theme_wrap .theme_5 {
+        float: left;
+        padding-right: 18px;
+        padding-bottom: 100px; }
+        #theme .container .theme .theme_wrap .theme_5 .color5 {
+          overflow: hidden;
+          position: relative;
+          background-color: #f7e0ff;
+          width: 150px;
+          height: 65px;
+          border-radius: 5px; }
+        #theme .container .theme .theme_wrap .theme_5 .color5:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 50px;
+          height: 65px;
+          background-color: #a728a3; }
+        #theme .container .theme .theme_wrap .theme_5 .color5:after {
+          content: '';
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 50px;
+          height: 65px;
+          background-color: #7675ac; }
+        #theme .container .theme .theme_wrap .theme_5 .theme_btn {
+          margin-top: 13px; }
+          #theme .container .theme .theme_wrap .theme_5 .theme_btn ul li.dots_btn {
+            font-size: 15px;
+            font-family: "Rubik";
+            font-weight: 500; }
+          #theme .container .theme .theme_wrap .theme_5 .theme_btn ul li.dots_btn:before {
+            content: '';
+            display: inline-block;
+            box-sizing: border-box;
+            width: 16px;
+            height: 16px;
+            border: 1px solid #e0e7ff;
+            border-radius: 50%;
+            margin-right: 10px;
+            vertical-align: middle; }
+          #theme .container .theme .theme_wrap .theme_5 .theme_btn ul li.dots_btn.active:before {
+            box-sizing: border-box;
+            border: 4px solid #2e5bff; }
+
+/*# sourceMappingURL=style.css.map */
